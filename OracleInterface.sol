@@ -14,8 +14,8 @@ enum VerificationResult {
    
     function getVerification(bytes32 _verificationId) public view returns (
        bytes32 id,
-        string discipline,
-        string team,
+        string memory discipline,
+        string memory team,
         uint cycle,
         uint date,
         uint percentage,
